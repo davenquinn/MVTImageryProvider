@@ -32,7 +32,7 @@ class MVTImageryProvider {
     this.proxy = new Cesium.DefaultProxy("");
     this.hasAlphaChannel =
       options.hasAlphaChannel !== undefined ? options.hasAlphaChannel : true;
-    this.cesiumviewer = options.cesiumViewer;
+    //this.cesiumviewer = options.cesiumViewer;
     this.sourceFilter = options.sourceFilter;
   }
 
